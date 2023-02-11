@@ -4,8 +4,9 @@ type Message = {
   message: string;
   user: User;
   keks: number;
-  createdAt: string;
+  createdAt: Date;
   messageID: number;
+  edited: boolean;
 };
 
 export default Message;
